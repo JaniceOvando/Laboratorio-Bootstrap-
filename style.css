@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -37,6 +36,57 @@ aside:first-of-type li {
 
 /* FIN: SIDEBAR IZQUIERDO — KIKE */
 
+/* INICIO POST/FEED CARD- MARCOS*/
+
+/* Estilo general de la tarjeta */
+.post-card {
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.post-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+
+/* --- ESTILO TIPO INSTAGRAM PARA INDICADORES --- */
+.carousel-indicators [button] {
+  width: 6px !important;
+  /* Tamaño pequeño */
+  height: 6px !important;
+  border-radius: 50% !important;
+  /* Convertir en círculo */
+  margin-left: 3px !important;
+  margin-right: 3px !important;
+  background-color: #ffffff !important;
+  opacity: 0.5;
+  border: none;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  /* El punto activo brilla más */
+}
+
+/* Ajuste de flechas laterales */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  background-size: 60%;
+}
+
+.bi-three-dots {
+  cursor: pointer;
+}
+
+/*FIN POST/FEED CARD -MARCOS*/
 
 /* INICIO: STORIES BAR — ADRIAN */
 
