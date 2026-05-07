@@ -1,0 +1,66 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #000;
+}
+
+
+/*INICIO: NAVBAR — EMANUEL*/
+
+nav {
+  /* escribe aquí tus estilos del navbar */
+}
+
+/* FIN: NAVBAR — EMANUEL */
+
+
+/* INICIO: SIDEBAR IZQUIERDO — KIKE */
+
+aside:first-of-type {
+  /* escribe aquí tus estilos del sidebar izquierdo */
+}
+
+aside:first-of-type ul {
+  /* estilos de la lista de navegación */
+}
+
+aside:first-of-type li {
+  /* estilos de cada item del menú */
+}
+
+/* FIN: SIDEBAR IZQUIERDO — KIKE */
+
+
+/* INICIO: STORIES BAR — ADRIAN */
+
+/* escribe aquí tus estilos del stories bar */
+
+/* FIN: STORIES BAR — ADRIAN */
+
+
+/* INICIO: ACTION BAR — JANICE */
+
+/* escribe aquí tus estilos del action bar */
+
+/* FIN: ACTION BAR — JANICE */
+
+
+/* INICIO: PERFIL CARD — JONAS */
+
+/* escribe aquí tus estilos de la perfil card */
+
+/* FIN: PERFIL CARD — JONAS */
+
+
+/* INICIO: HISTORIAS / SUGERENCIAS — MONSE */
+
+/* escribe aquí tus estilos de historias y sugerencias */
+
+/* FIN: HISTORIAS / SUGERENCIAS — MONSE */
