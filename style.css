@@ -53,6 +53,97 @@ aside:first-of-type li {
 
 
 /* INICIO: PERFIL CARD — JONAS */
+/* --- ESTILOS MEJORADOS: EFECTO PREMIUM --- */
+body {
+    background: radial-gradient(circle at top right, #ffffff, #f0f2f5); /* Degradado sutil de fondo */
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal con efecto de elevación */
+.ig-card {
+    background: #ffffff;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 20px; /* Bordes más curvos y modernos */
+    width: 340px;
+    padding: 30px 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05), 0 5px 15px rgba(0,0,0,0.03);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease; /* Efecto al pasar el mouse */
+}
+
+.ig-card:hover {
+    transform: translateY(-5px); /* Se eleva levemente */
+}
+
+/* Contenedor de imagen con anillo de "Story" */
+.ig-profile-img-container {
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    padding: 4px; /* Espacio para el anillo */
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); /* Colores Instagram */
+    margin-bottom: 20px;
+}
+
+.ig-profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ffffff; /* Separa la foto del gradiente */
+}
+
+/* Nombre de usuario */
+.ig-username {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #262626;
+    margin-bottom: 5px;
+    letter-spacing: -0.5px;
+}
+
+/* Nombre completo */
+.ig-fullname {
+    font-weight: 400;
+    font-size: 14px;
+    color: #8e8e8e;
+    margin-bottom: 25px;
+}
+
+/* Botón estilizado con sombra */
+.ig-change-btn {
+    background-color: #0095f6;
+    color: white;
+    text-decoration: none;
+    width: 80%; /* Botón más ancho */
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 149, 246, 0.3);
+    transition: all 0.2s ease;
+}
+
+.ig-change-btn:hover {
+    background-color: #1877f2;
+    box-shadow: 0 6px 15px rgba(24, 119, 242, 0.4);
+    transform: scale(1.02);
+    color: white;
+}
+
+.ig-change-btn:active {
+    transform: scale(0.98); /* Efecto de pulsación */
+}
 
 /* escribe aquí tus estilos de la perfil card */
 
