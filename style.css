@@ -4,12 +4,27 @@
   padding: 0;
 }
 
+.contenedor-principal {
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #fafafa;
   color: #000;
+  min-height: 100vh;        
 }
 
+main {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;        
+}
 
 /*INICIO: NAVBAR — EMANUEL*/
 
@@ -101,8 +116,16 @@ aside.col-md-2 {
 
 /* FIN: ESTILO DARK DE KIKE */
 
-/* --- ESTILO TIPO INSTAGRAM PARA INDICADORES --- */
-.carousel-indicators [button] {
+/* INICIO POST/FEED CARD- MARCOS*/
+
+/* Estilo general de la tarjeta */
+.post-card {
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
 /* Tamaño de la imagen*/
 .post-img {
   width: 100%;
@@ -154,6 +177,7 @@ aside.col-md-2 {
 }
 
 /*FIN POST/FEED CARD -MARCOS*/
+
 
 
 /* INICIO: STORIES BAR — ADRIAN */
@@ -224,11 +248,12 @@ aside.col-md-2 {
 }
 /* ---------- SIDEBAR DERECHO ---------- */
 
-aside{
-    width: 320px;
-    position: absolute;
-    top: 30px;
-    right: 40px;
+/* INICIO: PERFIL CARD — JONAS */
+.sidebar-derecho {
+  width: 320px;
+  position: absolute;
+  top: 30px;
+  right: 40px;
 }
 
 /* FIN: PERFIL CARD — JONAS */
