@@ -35,23 +35,61 @@ aside:first-of-type li {
 }
 
 /* FIN: SIDEBAR IZQUIERDO — KIKE */
+/* DISEÑO DEL NAV 2 - KIKE */
+/* INICIO: ESTILO DARK PARA EL ASIDE DE KIKE */
 
-/* INICIO POST/FEED CARD- MARCOS*/
-
-/* Estilo general de la tarjeta */
-.post-card {
-  background-color: #ffffff;
-  border: 1px solid #dbdbdb;
-  border-radius: 8px;
-  overflow: hidden;
+/* 1. Forzamos el fondo negro y el borde oscuro en el contenedor principal */
+aside.col-md-2 {
+    background-color: #000 !important; /* Negro puro */
+    border-right: 1px solid #262626 !important; /* Borde gris muy sutil */
+    color: white;
 }
 
-.post-img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  display: block;
+/* 2. Estilo del Logo */
+.instagram-logo {
+    color: white !important;
+    font-size: 1.6rem !important;
+    letter-spacing: -1px;
+    margin-top: 20px;
 }
+
+/* 3. Estilo de tus enlaces personalizados */
+.nav-link-kike {
+    display: flex;
+    align-items: center;
+    color: white !important; /* Letras blancas */
+    text-decoration: none;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    transition: background-color 0.2s ease;
+}
+
+/* 4. Los iconos de Bootstrap que están dentro de tus links */
+.nav-link-kike i {
+    font-size: 1.5rem;
+    margin-right: 16px;
+    width: 24px;
+    text-align: center;
+}
+
+/* 5. Efecto cuando pasas el mouse (Hover) */
+.nav-link-kike:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Brillo suave */
+    color: white !important;
+}
+
+/* 6. Estilo para el link que esté activo (Inicio) */
+.nav-link-kike.active {
+    font-weight: bold;
+}
+
+/* 7. Ajuste para el botón "Más" que está en el mt-auto */
+.mt-auto .nav-link-kike {
+    margin-bottom: 20px;
+}
+
+/* FIN: ESTILO DARK DE KIKE */
 
 /* --- ESTILO TIPO INSTAGRAM PARA INDICADORES --- */
 .carousel-indicators [button] {
