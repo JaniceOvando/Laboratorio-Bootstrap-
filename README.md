@@ -41,6 +41,7 @@ Para este proyecto, hemos dividido la estructura de la siguiente manera:
 ├── NAVBAR             → Emanuel
 ├── SIDEBAR IZQ        → Kike
 ├── STORIES BAR        → Adrian
+├── POST/FEED CARD     → Marcos
 ├── ACTION BAR         → Janice
 ├── PERFIL CARD        → Jonas
 └── SUGERENCIAS        → Monse
