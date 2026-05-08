@@ -189,7 +189,92 @@ aside.col-md-2 {
 
 /* INICIO: ACTION BAR — JANICE */
 
-/* escribe aquí tus estilos del action bar */
+/* Contenedor general del bloque */
+.post-actions{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* Botones de acción tipo IG */
+.ig-action-btn{
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: .35rem;
+  margin: 0;
+  line-height: 1;
+  color: #111;
+  border-radius: .75rem;
+  cursor: pointer;
+  transition: transform .08s ease, background-color .12s ease, opacity .12s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ig-action-btn i{
+  font-size: 2.05rem; /* tamaño del icono */
+  line-height: .25rem;
+}
+
+@media (max-width: 576px){
+  .ig-action-btn i.bi{
+    font-size: 2.50rem;
+  }
+}
+
+/* Hover y click */
+.ig-action-btn:hover{
+  background: rgba(0,0,0,.06);
+}
+
+.ig-action-btn:active{
+  transform: scale(.92);
+
+}
+
+/* Texto “Me gusta” */
+.ig-likes{
+  font-size: .9rem;
+  color: #111;
+}
+
+/* Caption */
+.ig-caption{
+  font-size: .9rem;
+  color: #111;
+  word-break: break-word;
+}
+
+/* Link “Ver comentarios” */
+.ig-link-btn{
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #181717;
+  font-size: .88rem;
+  cursor: pointer;
+}
+
+.ig-link-btn:hover{
+  text-decoration: underline;
+}
+
+/* Tiempo */
+.ig-time{
+  font-size: .78rem;
+  color: #302f2f;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  margin-top: .35rem;
+}
+
+/* Accesibilidad: foco visible */
+.ig-action-btn:focus-visible,
+.ig-link-btn:focus-visible{
+  outline: 2px solid #0d6efd;
+  outline-offset: 2px;
+  border-radius: .5rem;
+}
 
 /* FIN: ACTION BAR — JANICE */
 
