@@ -135,7 +135,7 @@ aside.col-md-2 {
 }
 
 #carouselExampleIndicators {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -168,7 +168,7 @@ aside.col-md-2 {
   border: 1px solid #dbdbdb;
   border-radius: 8px;
   overflow: hidden;
-  max-width: 470px;
+  max-width: 5000px;
 }
 
 .carousel-inner {
