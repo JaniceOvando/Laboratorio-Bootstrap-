@@ -23,7 +23,10 @@ INSTAGRAM!
 # Bootstrap Utilizado 
 - El CDN (Content Delivery Network)
 - Carrusel con indicadores
-- 
+- d-flex y flex-column — layout de la barra y cada historia
+- overflow-auto — scroll horizontal
+- rounded-circle y border border-danger — estilo de la foto
+- align-items-center y small — alineación y texto
 - 
 
 # El objetivo es practicar: 
