@@ -46,15 +46,16 @@
       <main>
 
 
-        <!--NICIO: STORIES BAR — ADRIAN-->
-        <div>
-          <div>Historia 1</div>
-          <div>Historia 2</div>
-          <div>Historia 3</div>
-          <div>Historia 4</div>
-          <div>Historia 5</div>
-        </div>
-        <!-- FIN: STORIES BAR — ADRIAN -->
+                <!--NICIO: STORIES BAR — ADRIAN-->
+<div class="d-flex overflow-auto gap-3 p-3">
+  <div class="d-flex flex-column align-items-center"><img src="https://thumbs.dreamstime.com/b/icono-de-bot%C3%B3n-art%C3%ADculo-vector-historias-en-medios-sociales-248130704.jpg" alt="tu historia" class="rounded-circle border border-danger p-1" width="60" height="60"><span class="small">Tu historia</span></div>
+  <div class="d-flex flex-column align-items-center"><img src="https://media.istockphoto.com/id/1682296067/es/foto/feliz-retrato-de-estudio-o-hombre-profesional-agente-de-bienes-ra%C3%ADces-o-hombre-de-negocios.jpg?s=612x612&w=0&k=20&c=1c4QU0U5FDIpTh08fzH1xo-P8HnXFAHSz09biId8p84=" alt="freddy.cg" class="rounded-circle border border-danger p-1" width="60" height="60"><span class="small">freddy.cg</span></div>
+  <div class="d-flex flex-column align-items-center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS50164TpBNQkN00akui59N8-rEWHd5Ccz8wQ&s" alt="maria_mtz" class="rounded-circle border border-danger p-1" width="60" height="60"><span class="small">maria_mtz</span></div>
+  <div class="d-flex flex-column align-items-center"><img src="https://static4.depositphotos.com/1000824/337/i/450/depositphotos_3379507-stock-photo-man-in-sunglasses.jpg" alt="carlos.dev" class="rounded-circle border border-danger p-1" width="60" height="60"><span class="small">carlos.dev</span></div>
+  <div class="d-flex flex-column align-items-center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5h5lG_a-oq_WwW-Ti_vSOC4nDKGIKyf13aQ&s" alt="sofi.pics" class="rounded-circle border border-danger p-1" width="60" height="60"><span class="small">sofi.pics</span></div>
+</div>
+       
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 
         <!-- POST / FEED CARD - Marcos-->
@@ -101,10 +102,9 @@
             </button>
           </div>
 
-
-
           <!-- POST / FEED CARD -  FIN Marcos-->
 
+          
           <!-- INICIO: ACTION BAR — JANICE -->
           <div>
             <button>Like</button>
@@ -137,219 +137,19 @@
 
 
         <!-- INICIO: PERFIL CARD — JONAS -->
-        <!DOCTYPE html>
-
-<html lang="es">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Perfil Instagram Chris Evans</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-
-        /* --- ESTILOS GENERALES Y RESETEOS --- */
-
-        body {
-
-            background-color: #fafafa; /* Fondo claro tipo IG */
-
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-
-            margin: 0;
-
-            display: flex;
-
-            justify-content: center;
-
-            align-items: center;
-
-            height: 100vh; /* Centrado vertical */
-
-        }
-
-
-
-        /* --- CLASES ESPECÍFICAS PARA TU CÓDIGO --- */
-
-       
-
-        /* Contenedor principal de la tarjeta */
-
-        .ig-card {
-
-            background: #ffffff;
-
-            border: 1px solid #dbdbdb;
-
-            border-radius: 8px; /* Bordes redondeados sutiles */
-
-            width: 320px; /* Ancho estándar de card */
-
-            padding: 20px;
-
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Sombra muy tenue */
-
-            display: flex;
-
-            flex-direction: column; /* Elementos uno debajo del otro */
-
-            align-items: center; /* Centrado horizontal */
-
-            text-align: center;
-
-        }
-
-
-
-        /* Contenedor de la imagen para asegurar ratio 1:1 */
-
-        .ig-profile-img-container {
-
-            width: 150px; /* Tamaño fijo para la foto */
-
-            height: 150px; /* Igual al ancho para ratio 1:1 */
-
-            overflow: hidden; /* Corta lo que sobre si la imagen original no es cuadrada */
-
-            border-radius: 50%; /* Foto de perfil redonda */
-
-            border: 2px solid #efefef; /* Borde sutil alrededor */
-
-            margin-bottom: 15px; /* Espacio debajo de la foto */
-
-            display: flex;
-
-            justify-content: center;
-
-            align-items: center;
-
-        }
-
-
-
-        /* La imagen en sí */
-
-        .ig-profile-img {
-
-            width: 100%;
-
-            height: 100%;
-
-            object-fit: cover; /* Importante: estira y corta para llenar el contenedor 1:1 sin deformar */
-
-        }
-
-
-
-        /* Nombre de usuario (Cap. America) */
-
-        .ig-username {
-
-            font-weight: 600;
-
-            font-size: 16px;
-
-            color: #262626;
-
-            margin-bottom: 3px;
-
-            display: block; /* Asegura que el span tome su propia línea */
-
-        }
-
-
-
-        /* Nombre completo (Chris Evans) */
-
-        .ig-fullname {
-
-            font-weight: 400;
-
-            font-size: 14px;
-
-            color: #8e8e8e; /* Color gris suave */
-
-            margin-bottom: 20px; /* Espacio antes del botón */
-
-            display: block;
-
-        }
-
-
-
-        /* Enlace "Cambiar" (Botón) */
-
-        .ig-change-btn {
-
-            background-color: #0095f6; /* Azul IG */
-
-            color: white;
-
-            text-decoration: none;
-
-            padding: 8px 24px;
-
-            border-radius: 5px;
-
-            font-size: 13px;
-
-            font-weight: 600;
-
-            transition: background-color 0.2s ease;
-
-        }
-
-
-
-        .ig-change-btn:hover {
-
-            background-color: #1877f2; /* Azul más oscuro al pasar el ratón */
-
-            color: white;
-
-        }
-
-
-
-    </style>
-
-</head>
-
-<body>
-
-
-
-    <div class="ig-card">
-
-        <div class="ig-profile-img-container">
-
-            <img src="https://i.pinimg.com/736x/02/ab/23/02ab236742df0dcd86f7e93f012788de.jpg"
-
-                 alt="Foto de perfil del Capitán América"
-
-                 class="ig-profile-img">
-
+        
+        <div class="ig-card mx-auto mb-4">
+            <div class="ig-profile-img-container">
+                <img src="https://i.pinimg.com/736x/02/ab/23/02ab236742df0dcd86f7e93f012788de.jpg"
+                    alt="Foto de perfil del Capitán América"
+                    class="ig-profile-img">
+            </div>
+            <span class="ig-username">Cap. America</span>
+            <span class="ig-fullname">Chris Evans</span>
+            <a href="#" class="ig-change-btn">Cambiar</a>
         </div>
 
-        <span class="ig-username">Cap. America</span>
-
-        <span class="ig-fullname">Chris Evans</span>
-
-        <a href="#" class="ig-change-btn">Cambiar</a>
-
-    </div>
-
-    </body>
-
-</html>
-
-        <!-- FIN: PERFIL CARD — JONAS -->
+        <!--     FIN: PERFIL CARD — JONAS -->
 
 
         <!--INICIO: HISTORIAS / SUGERENCIAS — MONSE-->

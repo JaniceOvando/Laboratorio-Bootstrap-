@@ -89,9 +89,9 @@ aside:first-of-type li {
 /*FIN POST/FEED CARD -MARCOS*/
 
 /* INICIO: STORIES BAR — ADRIAN */
-
-/* escribe aquí tus estilos del stories bar */
-
+.stories-bar { overflow-x: auto; scrollbar-width: none; }
+.stories-bar::-webkit-scrollbar { display: none; }
+.stories-bar img { object-fit: cover; }
 /* FIN: STORIES BAR — ADRIAN */
 
 
@@ -103,6 +103,10 @@ aside:first-of-type li {
 
 
 /* INICIO: PERFIL CARD — JONAS */
+
+
+
+
 /* --- ESTILOS MEJORADOS: EFECTO PREMIUM --- */
 body {
     background: radial-gradient(circle at top right, #ffffff, #f0f2f5); /* Degradado sutil de fondo */
