@@ -22,7 +22,7 @@ INSTAGRAM!
 
 # Bootstrap Utilizado 
 - El CDN (Content Delivery Network)
-- 
+- Carrusel con indicadores
 - 
 - 
 
